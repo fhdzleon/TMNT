@@ -1,0 +1,111 @@
+/* reset.css */
+
+/* Box sizing border-box para todos los elementos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+   
+}
+
+/* Establecer la tipografía predeterminada */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #38761d;
+}
+
+/* Resetear las listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Resetear los márgenes y paddings de los elementos de formulario */
+input,
+button,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+/* Establecer márgenes a cero para todos los elementos */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+address,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  margin: 0;
+  padding: 0;
+}
+
+/* Establecer bordes y tamaños de fuente a cero para los elementos de formulario */
+fieldset,
+img {
+  border: 0;
+}
+
+/* Resetear los estilos de enlace predeterminados */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Corregir los estilos de los elementos que pueden ser usados como botones */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+/* Asegurar que los elementos HTML no tengan espacios adicionales */
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
