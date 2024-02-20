@@ -106,3 +106,40 @@
   color: white;
   font-weight: bolder;
 }
+
+@media only screen and (max-width: 600px) {
+  .header {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .header img {
+    height: 80px;
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .imageCont button {
+      width: 120px;
+      height: 40px;
+  }
+
+  .imageCont img {
+      height: 260px;
+  }
+
+  .buttonContainer {
+      width: 70%;
+  }
+
+  .creator input {
+    width: 100%
+    
+  }
+
+  .creator button {
+    width: 100%
+  }
+}
